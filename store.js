@@ -48,6 +48,7 @@ const action = {type:"ADD_FAVORITE", payload: {favorite: {title: "story1", id:1}
 //payload helps provide data for us and is provided as an object
 
 const store = createStore(favoritesReducer)
-store.dispatch(action);
-console.log(store.getState())
+// store.dispatch(action);
+// console.log(store.getState())
+
 export default store;

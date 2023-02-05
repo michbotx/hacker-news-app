@@ -1,6 +1,6 @@
 
 import RouterHandler from "./router.js";
-import store from "./store.js";
+// import store from "./store.js";
 
 
 window.onhashchange = () => {
@@ -27,7 +27,6 @@ class App {
     constructor() {
         new RouterHandler()
     }
-
 }
 
 new App(); 
